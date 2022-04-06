@@ -1,0 +1,49 @@
+a)   What is the difference between forEach, map, filter and reduce.Explain these using your own words ?
+
+* forEach:- .forEach() is great you need to execute a function for each individual element in an array. Good practice is that you should use .forEach() when you can’t use other array methods to accomplish your goal. I know this may sound vague, but .forEach() is a generic tool… only use it when you can’t use a more specialized tool.
+
+* map:- creates a new array from calling a function for every array element.calls a function once for each element in an array.does not execute the function for empty elements.
+
+* filter:- method creates a new array filled with elements that pass a test provided by a function. method does not execute the function for empty elements.method does not change the original array.
+
+* reduce:- The reduce() method executes a reducer function for each value of an array.
+
+b)  Explain the difference between function declaration and arrow function ?
+
+* function declaration:- It will tell compiler about the function name , its return type, and parameters
+                         its a function statement which has parameters.
+                         its defined using function keyword.
+                         they will execute when they are called.
+    syntax--    function functionName(parameters) {
+                   //code 
+                }
+
+c) Explain the difference between find and findIndex ?
+
+* find():- find() method returns the value of the first element that passes a test.executes a function for each array element.find() method returns undefined if no elements are found.
+find() method does not execute the function for empty elements.The find() method does not change the original array.
+
+* findIndex:- Will return index of first array element that passes a test function.
+              otherwise it returns -1
+
+d) If you like to filter out one object element in an array which method do you like to use: filter or find ? Explain
+
+* filter:- as it creates an array filled with all array elements.
+           also its supported  by browsers.
+
+
+e) Explain the difference of var, let and const when we declare a variable ?
+
+  * var :- var is global scope & function scope 
+           its global when its declared outside a function .. which means its available in use to the whole window.
+           its function when its declared inside  a function (within).. which mean it can be access only inside function
+
+  * let & const are block scope
+
+    for let :- if variable is declared with let .. we can used only inside that block.
+               it cant be re-declared bt can be updated
+               if its not initialized will get reference error
+
+    for const :- it can only be accessed when they are declared in a block.
+                 it cant be updated or re-declared.
+                 its imp to initialized when its declared.
